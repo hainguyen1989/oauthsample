@@ -23,7 +23,7 @@ public class GoogleAPIWrapper implements SocialNetworkAPIWrapper {
 	private final static Logger LOGGER = LoggerFactory.getLogger(GoogleAPIWrapper.class);
 	private static String appId = "198883335558-svc27j3m8lpe6nsj68oj05c88enmle0k.apps.googleusercontent.com";
 	private static String appSecret = "woafrWFIEy349ZCWEVzRWhfI";
-	private static String redirectUrl = "http://localhost:8080/OAuthSample/snlogin/google";
+	private static String redirectUrl = "http://social-login-sample.herokuapp.com/snlogin/google";
 	private String accessToken;
 	private Gson gson;
 
@@ -80,9 +80,7 @@ public class GoogleAPIWrapper implements SocialNetworkAPIWrapper {
 		String json = "{\"id\": \"116121476620757823879\","
 				+ "\"email\": \"thehai1911@gmail.com\","
 				+ "\"verified_email\": true,"
-				+ "\"name\": \"Nguyễn Thế Hải\","
-				+ "\"given_name\": \"Nguyễn Thế\", "
-				+ "\"family_name\": \"Hải\", "
+				+ "\"name\": \"Nguyễn Thế Hải\"," + "\"given_name\": \"Nguyễn Thế\", " + "\"family_name\": \"Hải\", "
 				+ "\"link\": \"https://plus.google.com/116121476620757823879\", "
 				+ "\"picture\": \"https://lh5.googleusercontent.com/-GhE3YJ6ELQI/AAAAAAAAAAI/AAAAAAAAHQI/ylHxH_yx058/photo.jpg\", "
 				+ "\"gender\": \"male\"}";

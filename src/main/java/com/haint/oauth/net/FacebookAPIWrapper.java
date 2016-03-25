@@ -14,7 +14,7 @@ public class FacebookAPIWrapper implements SocialNetworkAPIWrapper {
 
 	private static String appId = "1073915749317112";
 	private static String appSecret = "564196e1d37be0f707d13bdbbe6eb54c";
-	private static String redirectUrl = "http://localhost:8080/OAuthSample/snlogin/facebook";
+	private static String redirectUrl = "http://social-login-sample.herokuapp.com/snlogin/facebook";
 	private String accessToken;
 	private Gson gson;
 
